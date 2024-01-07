@@ -27,8 +27,20 @@ class HomePage extends StatelessWidget {
         BasicTile(
           title: "Asia",
           titles: [
-            BasicTile(title: "Afghanistan"),
-            BasicTile(title: "Iran"),
+            BasicTile(title: "Afghanistan",
+                titles: [
+                  BasicTile(title: "data 1"),
+                  BasicTile(title: "data 2"),
+                  BasicTile(title: "data 3")
+                ]
+            ),
+            BasicTile(title: "Iran",
+              titles: [
+                BasicTile(title: "data 1"),
+                BasicTile(title: "data 2"),
+                BasicTile(title: "data 3")
+              ]
+            ),
           ],
         ),
         BasicTile(
